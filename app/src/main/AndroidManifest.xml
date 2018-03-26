@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.starius.newborncare">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:name=".IntialFonts"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu1"/>
+        <activity android:name=".Menu2"/>
+        <activity android:name=".Menu3"/>
+        <activity android:name=".detailMenu1_1"/>
+        <activity android:name=".detailMenu1_2"/>
+        <activity android:name=".detailMenu1_3"/>
+        <activity android:name=".detailMenu1_4"/>
+
+        <activity android:name=".detailMenu2_1"/>
+        <activity android:name=".detailMenu2_2"/>
+        <activity android:name=".detailMenu2_3"/>
+
+        <activity android:name=".detailMenu3_1"/>
+        <activity android:name=".detailMenu3_2"/>
+        <activity android:name=".detailMenu3_3"/>
+        <activity android:name=".detailMenu3_4"/>
+    </application>
+
+</manifest>

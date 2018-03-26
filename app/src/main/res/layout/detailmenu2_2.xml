@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:background="@drawable/bg_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="การป้อนนมลูกด้วยถ้วย"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <TextView
+                    android:textColor="#706b6b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:textSize="15sp"
+                    android:text="@string/menudetail2.2"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:src="@drawable/baby2_1"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"/>
+
+                    <ImageView
+                        android:src="@drawable/baby2_2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ทำไมการป้อนนมด้วยถ้วยจึงดีกว่าการให้นมขวด ?"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:textColor="#706b6b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:textSize="15sp"
+                    android:text="@string/menudetail2.2.1" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
