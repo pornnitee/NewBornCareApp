@@ -83,7 +83,21 @@
                     android:padding="0dp"
                     android:background="@drawable/table"
                     android:layout_gravity="center"
-                    android:text="  กดดู วีดีโอ สอนบีบนมแม่  "
+                    android:text="  วิดีโอ เทคนิคการบีบเก็บน้ำนม  "
+                    />
+
+
+                <Button
+                    android:layout_margin="5dp"
+                    android:id="@+id/youtube2"
+                    android:textColor="#009688"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:padding="0dp"
+                    android:background="@drawable/table"
+                    android:layout_gravity="center"
+                    android:text="  วิดีโอ วิธีนวดเต้านมและบีบน้ำนม  "
                     />
 
             <!--    <WebView

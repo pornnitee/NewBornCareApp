@@ -28,8 +28,16 @@ public class detailMenu1_2 extends AppCompatActivity {
         url.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com")));
+                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=APiWW86UB1M&feature=youtu.be")));
 
+            }
+        });
+
+        Button url2 = (Button) findViewById(R.id.youtube2);
+        url2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=W4JBGpbCuv8&feature=youtu.be")));
             }
         });
 
